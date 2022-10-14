@@ -1,0 +1,42 @@
+:root
+{
+    --mainColor:#24353F;
+}
+#sectionOne , #sectionTwo
+{
+    background-color: var(--mainColor);
+    height : 100vh;
+}
+#sectionOne .container 
+{
+    background-color: var(--mainColor);
+    box-shadow: black 0px 0px 10px 10px;
+}
+input
+{
+    background-color: var(--mainColor) !important;
+    border-color: rgb(206, 212, 218)!important;
+}
+#sectionOne h3 , #sectionTwo h3
+{
+    line-height: 80px!important;
+    font-size: 50px;
+}
+.loginbtn:hover , .signinbtn:hover
+{
+    background-color:#1F757D!important;
+    color: white !important;
+}
+#sectionOne p a:hover
+{
+    text-decoration: underline!important;
+}
+.navigation 
+{
+    background-color: var(--mainColor);
+    box-shadow: black 0px 22px 30px   ;
+}
+.welcomeBox h3
+{
+    box-shadow:black 0px 0px 10px 10px ;
+}
